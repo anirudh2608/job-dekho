@@ -1,0 +1,1 @@
+export const NotFoundMiddleware = (req,res) => res.status(403).send("route does not exist")
